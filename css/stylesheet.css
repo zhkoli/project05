@@ -1,0 +1,227 @@
+/* Author Info
+Zannatoun Horain
+E-mail:horainzannatoun@yahoo.com
+*/
+
+@font-face { font-family: FontAwesome; src: url('../fontawesome-webfont.TTF'); }
+/*
+
+
+=========Index=======
+
+
+
+1.Top Bar
+2
+/* Top Bar */
+.top-bar{
+	background: #edeff1;
+}
+.zzaBc {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.menu {
+	float:right;
+	width:auto;
+	overflow:hidden;
+	margin:auto;
+}
+.menu ul{
+	padding-top: 1%;
+	margin:0;
+	list-style:none;
+}
+.menu li{
+	float:left;
+}
+.menu a:link{
+	color:black;
+	width:180px;
+	display:block;
+	text-decoration: none;
+	text-align: center;
+	padding:auto;
+	font-size:19px;
+}
+.menu a:hover{
+	background-color: #dd4b2b;
+}
+/* Header */
+.section-a{
+	background-image: url(../img/banner-png.png);
+}
+.sa-main{
+	text-align: center;
+	padding-top: 35%;
+}
+.section-a h1{
+	color:white;
+}
+.section-a p{
+	color:white;
+}
+.sa-bu{
+	text-align: center;
+	padding-top:4%;
+	padding-bottom:18%;
+}
+.section-a h2{
+	color:white;
+	font-size:30pt;
+}
+
+.dzza{
+	display: flex;
+	flex-direction: row;
+	text-align:center;
+	padding-left: 20%;
+	padding-right:20%;
+	justify-content: space-around;	
+}
+.layer-two{
+	padding-left:3%;
+	padding-right:3%;
+}
+
+/* News Section */
+
+.section-b{
+	background-color:#edeff1;
+}
+.section-b h1{
+	padding-top:5%;
+	text-align:center;
+	color:black;
+}
+.news {
+		display: flex;
+		flex-direction: row;
+		text-align:center;
+		padding-left: 20%;
+		padding-right:20%;
+		justify-content: space-around;
+		padding-top:5%;
+		padding-bottom:10%;
+}
+.img-two{
+	padding-left:3%;
+	padding-right:3%;
+}
+/* Newsletter */
+
+.section-c {
+	background-image: url(../img/newsletter.png);
+}
+
+.section-c h2{
+	padding-top:7%;
+	text-align:center;
+	color:white;
+}
+
+.section-c p{
+	text-align:center;
+	color:white;
+}
+
+.zzadddd {
+	padding-left:28%;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 5%;
+}
+
+.lgv40 {
+	width:400px;
+	background:;
+	text-fill-color:white;
+	text-color:white;
+}
+
+.lgv30 {
+	width: 200px;
+	height: 48px;
+}
+
+/* Middle Section */
+
+.section-d {
+	background: #ffffff;
+	padding-top:6%
+}
+
+.trans-one {
+	display:flex;
+	flex-direction: row;
+}
+.trans-one-one{
+	padding-left:10%;
+}
+.trans-one-one h3{
+	padding-left:1%;
+}
+.trans-one-two{
+	padding-right:7%;
+	padding-left:1%;
+}
+.trans-one-one .btn-danger{
+	background-color:#dd4b2b;
+	width: 5cm;
+}
+
+.trans-two {
+	display:flex;
+	flex-direction: row;
+}
+.trans-two-one{
+	padding-right:10%;
+	padding-top:7%;
+	padding-bottom:16%;
+}
+.trans-two-one h3{
+	padding-left:1%;
+}
+.trans-two-two{
+	padding-left:7%;
+	padding-right:1%;
+}
+.trans-two-one .btn-danger{
+	background-color:#4b4e73;
+	border-color:#4b4e73;
+	width: 5cm;
+}
+
+/* Footer */
+
+.section-e{
+	background:#d75d0e;
+	padding-left:25%;
+	padding-right:25%;
+	display:flex;
+	padding-top:10%;
+	padding-bottom:3%;
+}
+
+.section-e p{
+	color:white;
+	font-size:18px;
+}
+
+.section-e-middle{
+	padding-left:20%;
+	padding-right:20%
+}
+.section-f{
+	background-image: url(../img/footer.png);
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.section-f p{
+	text-align: center;
+	color: white;
+}
